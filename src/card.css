@@ -33,7 +33,12 @@ body {
   flex-direction: column;
   gap: 14px;
 }
-
+.accordion button{
+    background: var(--card);
+    border-top: 2px solid var(--accent);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    cursor: pointer;
+}
 .card {
   background: var(--card);
   border-left: 4px solid var(--accent);
