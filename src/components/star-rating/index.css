@@ -1,0 +1,14 @@
+
+.stars {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.actve {
+    color: #fff700;
+}
+
+.inactive{
+    color : #000;
+}
