@@ -17,6 +17,7 @@ export default function ImageSlider({ url, page = 2, limit = 5 }) {
       try {
         const response = await fetch(`${url}?page=${page}&limit=${limit}`);
         const data = await response.json();
+        console.log(response)
         setImages(data);
       } catch (e) {
         setErrorMsg(e.message);

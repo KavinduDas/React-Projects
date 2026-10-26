@@ -5,6 +5,7 @@ import Accordion from './App.jsx'
 import Randomcolor from './components/random-color/index.jsx'
 import Starrate from './components/star-rating/index.jsx'
 import ImagSlider from './components/image-Slider/index.jsx'
+import Morebutton from './components/load-more-button/index.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,8 +13,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Accordion /> */}
     {/* <Randomcolor /> */}
     {/* <Starrate /> */}
-    <ImagSlider url={"https://picsum.photos/v2/list"}
+    {/* <ImagSlider url={"https://picsum.photos/v2/list"}
       pahe={"2"}
-      limit={"5"} />
+      limit={"5"} /> */}
+      <Morebutton />
   </StrictMode>,
 )
