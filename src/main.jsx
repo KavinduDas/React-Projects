@@ -6,6 +6,8 @@ import Randomcolor from './components/random-color/index.jsx'
 import Starrate from './components/star-rating/index.jsx'
 import ImagSlider from './components/image-Slider/index.jsx'
 import Morebutton from './components/load-more-button/index.jsx'
+import TreeView from './components/tree-view/index.jsx'
+import menus from './components/tree-view/data.js'
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     {/* <ImagSlider url={"https://picsum.photos/v2/list"}
       pahe={"2"}
       limit={"5"} /> */}
-      <Morebutton />
+      {/* <Morebutton /> */}
+      <TreeView menus={menus}/>
   </StrictMode>,
 )
