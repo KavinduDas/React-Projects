@@ -2,6 +2,12 @@ export const menus = [
   {
     label: "Home",
     to: "/",
+    children:[
+      {
+      label:"Random data",
+      to:"/"
+      }
+    ]
   },
   {
     label: "Profile",
