@@ -6,6 +6,10 @@ import Randomcolor from './components/random-color/index.jsx'
 import Starrate from './components/star-rating/index.jsx'
 import ImagSlider from './components/image-Slider/index.jsx'
 import Morebutton from './components/load-more-button/index.jsx'
+import TreeView from './components/tree-view/index.jsx'
+import menus from './components/tree-view/data.js'
+import QRCode from 'react-qr-code'
+import QRCodeGenerator from './components/QR-code/index.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +20,8 @@ createRoot(document.getElementById('root')).render(
     {/* <ImagSlider url={"https://picsum.photos/v2/list"}
       pahe={"2"}
       limit={"5"} /> */}
-      <Morebutton />
+      {/* <Morebutton /> */}
+      {/* <TreeView menus={menus}/> */}
+      <QRCodeGenerator />
   </StrictMode>,
 )
