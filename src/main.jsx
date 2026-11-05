@@ -10,6 +10,7 @@ import TreeView from './components/tree-view/index.jsx'
 import menus from './components/tree-view/data.js'
 import QRCode from 'react-qr-code'
 import QRCodeGenerator from './components/QR-code/index.jsx'
+import LightDarkMode from './components/light-dark-mode/index.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +23,8 @@ createRoot(document.getElementById('root')).render(
       limit={"5"} /> */}
       {/* <Morebutton /> */}
       {/* <TreeView menus={menus}/> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      <LightDarkMode />
   </StrictMode>,
 )
